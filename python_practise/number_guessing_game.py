@@ -31,7 +31,7 @@ def play_game() -> None:
     """ Main function of the program."""
 
     print(">Welcome to 'Guess-random-number' game!")
-    threshold = input(
+    threshold = input_to_int(
         ">Please insert an upper threshold of number range: ")
 
     random_number = random.randint(0, threshold)
